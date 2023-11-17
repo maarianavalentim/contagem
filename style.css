@@ -1,0 +1,52 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+  }
+  img {
+    width: 100vw;
+    height: 100vh; 
+    object-fit: cover; 
+  }
+h1{
+    color: gold;
+}
+
+
+  .countdown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  #timer {
+    font-size: 36px;
+    color: #09bc00;
+    background-color: #ca0000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  #daysLeftMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ca0000;
+  }
+  .progress-bar {
+    width: 100%;
+    background-color:  #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #progress {
+    height: 20px;
+    background-color: #09bc00;
+    border-radius: 5px;
+    width: 0;
+  }
